@@ -1,35 +1,51 @@
-<html><head>
-    <title>Realtime face Identification</title>
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&amp;display=swap" rel="stylesheet">
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script><style type="text/css" data-glamor=""></style>
-  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&amp;display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="style.css">
-  
-  </head>
-  
-  <body background="https://st.depositphotos.com/1008522/1686/v/600/depositphotos_16867121-stock-illustration-notebook-doodle-design-elements-mega.jpg">
-  <center>
-    <h3 class="btn btn-info heading">Realtime face Identification <hr>
+</head>
+<body background= "background.jpg">
+<center>
+  <h3 class="btn btn-primary heading">Real Time Image Identification App
+    <hr>
     <center>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
-        Model is Trained on :<br> <div class="btn btn-warning heading_div_2">Me | Spoon | Watch</div>
-      </div>
-    </center><br></h3>
-    <br> <br>
-    <p class="btn btn-warning resulttag">Object: <span id="result_object_name"></span></p>
-    <br> <br>
-    <p class="btn btn-warning resulttag">Accuracy: <span id="result_accuracy"></span></p><br> <br><br>
-  </center>
-  <br>
-  <br>
-  <br>
-  <div id="coppyrightfooter">Developed by Tanav</div>
+        We are using Mobilenet as a Model  
+        <br>
+          <div class="btn heading_div2">
+            <em> Mobilenet model is trained on <br> more than 1.3 million images. </em>
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
   
-  <script src="main.js"></script>
+  <p class="btn btn-success result_para_tag">Object : 
+    <span id="result_object_name"></span> 
+  </p>
   
-  <canvas id="defaultCanvas0" class="p5Canvas" width="600" height="600" style="width: 300px; height: 300px; position: absolute; left: 618px; top: 227px;"></canvas><video playsinline="" crossorigin="anonymous" width="640" height="480" style="display: none;"></video></body></html>
+  <br><br>
+  <p class="btn btn-success result_para_tag">Accuracy : 
+    <span id="result_object_accuracy"></span> 
+  </p>
+
+</center>
+
+<div class="copy_right_footer">
+Developed by : Whitehat Jr Team
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
